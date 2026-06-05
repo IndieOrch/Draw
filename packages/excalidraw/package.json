@@ -38,7 +38,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Excalidraw as a React component",
+  "description": "Draw (rebranded Excalidraw fork) as a React component",
   "license": "MIT",
   "keywords": [
     "excalidraw",

@@ -1,7 +1,18 @@
+# Draw
+
+> **Draw** is a rebranded fork of [Excalidraw](https://github.com/excalidraw/excalidraw),
+> maintained by 5cycle Software for use inside IndieOrch. The fork keeps Excalidraw's
+> internal package names, npm scope (`@excalidraw/*`) and the `Excalidraw` React
+> component export for upstream-merge compatibility; only the user-visible branding
+> (logo, app name, titles) has been changed. Excalidraw and its logo are property of
+> the original Excalidraw authors — see `LICENSE`.
+
+---
+
 <a href="https://excalidraw.com/" target="_blank" rel="noopener">
   <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
+    <source media="(prefers-color-scheme: dark)" alt="Excalidraw (upstream)" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
+    <img alt="Excalidraw (upstream)" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
   </picture>
 </a>
 

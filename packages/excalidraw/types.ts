@@ -635,6 +635,11 @@ export interface ExcalidrawProps {
   viewModeEnabled?: boolean;
   zenModeEnabled?: boolean;
   gridModeEnabled?: boolean;
+  /**
+   * IndieOrch: quando true, remove o padding ao redor da UI do editor
+   * (--editor-container-padding: 0). Útil quando o host já provê espaçamento.
+   */
+  noUIPadding?: boolean;
   objectsSnapModeEnabled?: boolean;
   libraryReturnUrl?: string;
   theme?: Theme;

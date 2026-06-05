@@ -2145,6 +2145,7 @@ class App extends React.Component<AppProps, AppState> {
             this.state.viewModeEnabled ||
             this.state.openDialog?.name === "elementLinkSelector",
           "excalidraw--mobile": this.editorInterface.formFactor === "phone",
+          "excalidraw--no-ui-padding": this.props.noUIPadding,
         })}
         style={{
           ["--ui-pointerEvents" as any]: shouldBlockPointerEvents
